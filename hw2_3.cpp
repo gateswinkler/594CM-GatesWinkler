@@ -42,7 +42,7 @@ void display(void)
 
    glPopMatrix ();
 
-   glPushMatrix ();
+   /*glPushMatrix ();
    glTranslatef (0.0, 0.0, -5.0);
 
    glPushMatrix ();
@@ -56,7 +56,7 @@ void display(void)
    glEnable (GL_LIGHTING);
 
    glPopMatrix ();
-
+*/
    glPushMatrix ();
 	float objColor[] = { 1.0, 0.0, 0.0, 1.0 };
 	glMaterialfv(GL_FRONT_AND_BACK, GL_AMBIENT_AND_DIFFUSE, objColor); 
